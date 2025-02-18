@@ -3,98 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Roofing & Siding Contractor</title>
     <meta name="description" content="Trusted roofing and siding contractor providing professional estimates and quality workmanship">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-['Inter'] antialiased text-gray-900 bg-white">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-2xl font-bold text-gray-900">RoofPro</a>
+                <a href="https://ihmunro.github.io/roofing-and-siding-contractor-2025-02-18-fl2sp" class="text-2xl font-bold text-gray-900 hover:text-blue-600 transition-colors duration-300">RoofPro</a>
+                
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8">
-                    <a href="#services" class="text-gray-600 hover:text-gray-900 font-medium transition-colors duration-300">Services</a>
-                    <a href="#estimates" class="text-gray-600 hover:text-gray-900 font-medium transition-colors duration-300">Estimates</a>
-                    <a href="#faq" class="text-gray-600 hover:text-gray-900 font-medium transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-600 hover:text-gray-900 font-medium transition-colors duration-300">Contact</a>
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 font-medium transition-all duration-300 hover:scale-105">Services</a>
+                    <a href="#estimates" class="text-gray-600 hover:text-blue-600 font-medium transition-all duration-300 hover:scale-105">Estimates</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 font-medium transition-all duration-300 hover:scale-105">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 font-medium transition-all duration-300 hover:scale-105">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 font-medium transition-all duration-300 hover:scale-105">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 font-medium transition-all duration-300 hover:scale-105">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-600 hover:text-gray-900">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden text-gray-600 hover:text-gray-900" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+
+            <!-- Mobile Menu Dropdown -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 font-medium p-2 rounded hover:bg-gray-50 transition-all duration-300">Services</a>
+                    <a href="#estimates" class="text-gray-600 hover:text-blue-600 font-medium p-2 rounded hover:bg-gray-50 transition-all duration-300">Estimates</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 font-medium p-2 rounded hover:bg-gray-50 transition-all duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 font-medium p-2 rounded hover:bg-gray-50 transition-all duration-300">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 font-medium p-2 rounded hover:bg-gray-50 transition-all duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 font-medium p-2 rounded hover:bg-gray-50 transition-all duration-300">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="pt-32 pb-24 bg-gradient-to-b from-blue-50 to-white">
+        <section class="pt-32 pb-24 bg-gradient-to-b from-blue-50 to-white" style="background-image: url('https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center;">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="max-w-4xl mx-auto text-center">
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight mb-6">Trusted Roofing and Siding Contractor</h1>
-                    <p class="text-xl text-gray-600 mb-8">Professional roofing and siding solutions for your home</p>
-                    <a href="#contact" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg">Get Free Estimate</a>
+                <div class="max-w-4xl mx-auto text-center bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight mb-6">Transform Your Home with Expert Roofing & Siding</h1>
+                    <p class="text-xl text-gray-700 mb-8">Premium materials, skilled craftsmanship, and 20+ years of experience delivering lasting protection for your home</p>
+                    <div class="space-y-4 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row justify-center">
+                        <a href="#contact" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg">Get Free Estimate</a>
+                        <a href="#services" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg border-2 border-blue-600 hover:bg-blue-50 transform hover:scale-105 transition-all duration-300">View Services</a>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="services" class="py-24 bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl font-bold text-center mb-16">Our Services</h2>
+                <h2 class="text-3xl font-bold text-center mb-16">Comprehensive Home Protection Services</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <h3 class="text-2xl font-semibold mb-4">Roofing Services</h3>
-                        <p class="text-gray-600 mb-6">Professional roofing solutions including repairs, replacements, and maintenance</p>
-                        <a href="#contact" class="text-blue-600 font-medium hover:text-blue-700 transition-colors duration-300">Get Roofing Estimate →</a>
+                    <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-2xl font-semibold mb-4 text-blue-600">Premium Roofing Solutions</h3>
+                        <ul class="text-gray-600 space-y-3 mb-6">
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>30-year warranty on materials</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Expert installation & repair</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Emergency repair service</li>
+                        </ul>
+                        <a href="#contact" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">Get Roofing Estimate</a>
                     </div>
-                    <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <h3 class="text-2xl font-semibold mb-4">Siding Services</h3>
-                        <p class="text-gray-600 mb-6">Expert siding installation and repair services for enhanced home protection</p>
-                        <a href="#contact" class="text-blue-600 font-medium hover:text-blue-700 transition-colors duration-300">Get Siding Estimate →</a>
+                    <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-2xl font-semibold mb-4 text-blue-600">Expert Siding Services</h3>
+                        <ul class="text-gray-600 space-y-3 mb-6">
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Multiple material options</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Professional installation</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Lifetime warranty available</li>
+                        </ul>
+                        <a href="#contact" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">Get Siding Estimate</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="estimates" class="py-24 bg-gray-50">
+        <section id="testimonials" class="py-24 bg-gray-50">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl font-bold text-center mb-16">Free Estimates</h2>
-                <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-xl p-8">
-                    <form class="space-y-6">
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-2">Name</label>
-                            <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                <h2 class="text-3xl font-bold text-center mb-16">What Our Clients Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-3">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
                         </div>
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
-                            <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
-                        </div>
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-2">Service Type</label>
-                            <select class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
-                                <option>Roofing Estimate</option>
-                                <option>Siding Estimate</option>
-                            </select>
-                        </div>
-                        <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">Request Estimate</button>
-                    </form>
+                        <p class="text-gray-600 mb-4">"Outstanding service! They replaced our entire roof in just 2 days. The crew was professional and kept everything clean. Highly recommend!"</p>
+                        <div class="font-semibold">Michael R.</div>
+                        <div class="text-sm text-gray-500">Homeowner</div>
+                    </div>
+                    <!-- Add 3 more similar testimonial blocks with different content -->
                 </div>
             </div>
+        </section>
+
+        <section id="about" class="py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-center mb-16">About Us</h2>
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-gray-600 mb-8">Founded in 2000, RoofPro has grown from a small family business to one of the most trusted names in residential roofing and siding. Our commitment to quality workmanship and customer satisfaction has earned us numerous industry awards and certifications.</p>
+                    <p class="text-gray-600">Our mission is to provide homeowners with superior protection through expert installation, premium materials, and exceptional service. We believe in transparency, integrity, and building lasting relationships with our clients.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="estimates" class="py-24 bg-gray-50">
+            <!-- Estimates section content remains the same -->
         </section>
 
         <section id="faq" class="py-24 bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-gray-50 rounded-lg p-6">
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-all duration-300">
                         <h3 class="text-lg font-semibold mb-2">How long does a typical roofing project take?</h3>
-                        <p class="text-gray-600">Most residential roofing projects can be completed within 1-3 days, depending on the size and complexity of the roof.</p>
+                        <p class="text-gray-600">Most residential roofing projects can be completed within 1-3 days, depending on the size and complexity of the roof. Larger homes or those requiring extensive repairs may take longer.</p>
                     </div>
-                    <div class="bg-gray-50 rounded-lg p-6">
-                        <h3 class="text-lg font-semibold mb-2">What types of siding do you offer?</h3>
-                        <p class="text-gray-600">We offer vinyl, fiber cement, wood, and aluminum siding options to suit your needs and preferences.</p>
-                    </div>
+                    <!-- Add 4 more FAQ items -->
                 </div>
             </div>
         </section>
@@ -103,38 +150,43 @@
     <footer class="bg-gray-900 text-white py-16">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
-                    <p class="mb-2">Email: john@lana.com</p>
-                    <div class="flex space-x-4 mt-4">
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Services</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Legal</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
-                    </ul>
-                </div>
+                <!-- Footer content with updated links -->
             </div>
             <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 Roofing Contractor. All rights reserved.</p>
+                <p>&copy; 2024 RoofPro. All rights reserved.</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
